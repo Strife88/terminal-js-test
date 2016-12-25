@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+         <link rel="stylesheet" href="css/font-awesome.css">
+         <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+<div class="container">
+    <div class="header">
+        <i class="fa fa-barcode logo"></i>
+    
+    <div class="menu">
+        <div data-anijs="if: click, on: .tab, do: $removeClass active, to: .tab.active; if: click, on: .tab, do: $addClass active, to: target" class="navbar">
+            <div data-anijs="if: click, do: slideInRight animated" class="tab"><i class="fa fa-barcode"></i><br>Акции</div>
+            <div data-anijs="if: click, do: slideInRight animated" class="tab"><i class="fa fa-barcode"></i><br>Поиск</div>
+            <div data-anijs="if: click, do: slideInDown animated" class="tab catalogue"><i class="fa fa-barcode"></i><br>Каталог</div>
+            <div data-anijs="if: click, do: slideInLeft animated" class="tab"><i class="fa fa-barcode"></i><br>Инфо</div>
+            <div data-anijs="if: click, do: slideInLeft animated" class="tab"><i class="fa fa-barcode"></i><br>Корзина</div>
+        </div>
+    </div>
+    </div>
+    <div class="best-deal-page">
+    </div>
+    <div class="find-page">
+    </div>
+    <div class="catalogue-page">
+    </div>
+    <div class="info-page"></div>
+    <div class="cart-page"></div>
+</div>
+  <script src="http://anijs.github.io/lib/anijs/anijs.js"></script>
+<script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom.js"></script>
+    </body>
+</html>
